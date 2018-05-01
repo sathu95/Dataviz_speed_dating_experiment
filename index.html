@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Speed Dating</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/custom-select.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="js/custom-select.js"></script>
+</head>
+<style>
+body {
+    background-color: #e6e6e6;
+}
+
+h2 { 
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+</style>
+<body>
+  <h2 align="center" > PREFERRED QUALITIES IN MALE AND FEMALE  </h2>
+  <div align = "center" class="outer-container">
+
+    <div  class="container" id="d1">
+      <div class="custom-select" id="d1-wave"></div>
+      <div class="chart" id="d1-picto"></div>
+      <div class="chart" id="d1-radar"></div>
+      <div class="chart" id="d1-bar"></div>
+      <div class="chart" id="d1-legend"></div>
+    </div>
+
+   <h2 align="center" > SHARED INTERESTS Vs SHARED RACIAL LINEAGE </h2>
+    <div class="container" id="d2">
+      <div class="chart" id="d2-poppyr"></div>
+    </div>
+  <h2 align="center" > IS IT GOOD TO BE FIRST OR LAST IN THE LINE?</h2>
+    <div class="container" id="d3">
+      <div class="chart" id="d3-heatmap"></div>
+      <div class="custom-select" id="d3-wave"></div>
+    </div>
+    
+  </div>
+  
+  <div id="tooltip"></div>
+
+  <script src="js/main.js"></script>
+  <script src="js/dashboard-1.js"></script>
+  <script src="js/dashboard-2.js"></script>
+  <script src="js/dashboard-3.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+.container {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  width: 1100px;
+  height: 760px;
+  position: relative;
+}
+
+.chart {
+  position: absolute;
+}
+
+svg text {
+  fill: #333;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  text-shadow: 1px 0 #fff, 0 1px #fff, -1px 0 #fff, 0 -1px #fff;
+}
+
+.custom-select {
+  width: 100px;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+}
+
+/* Dashboard 1 */
+
+#d1 .level-line,
+#d1 .axis-line,
+#d1 .domain {
+  stroke: #aaa;
+}
+
+#d1 .level-value {
+  fill: #aaa;
+}
+
+/* Dashboard 2 */
+
+#d2-poppyr {
+  background-color: #D5D0CB;
+}
+
+#d2 .foreignobj div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Tooltip */
+#tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  padding: 8px 24px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  pointer-events: none;
+  opacity: 0;
+}
